@@ -1,0 +1,25 @@
+{
+  "verification_date": "2026-07-30",
+  "zero_gap_meaning": "solver relative MIP bound gap",
+  "exact_all_solver_gaps_zero": true,
+  "exact_all_surrogate_gains_above_a1": true,
+  "exact_candidate_scope": [
+    "all ReslotProblem decision SKUs; current-SKU-slot permutation; top-partner reciprocal arcs plus all A1 incumbent arcs"
+  ],
+  "exact_full_T_candidate_pool": false,
+  "exact_old_head_only": false,
+  "exact_replay": "A1 and exact replayed with identical eval_week machinery from the same weekly starting state; exact is not an independent trajectory",
+  "exact_route_better_weeks": 2,
+  "exact_route_worse_weeks": 7,
+  "exact_vs_a1_aggregate_pct": 0.15419216358316667,
+  "exact_vs_a1_weekly_pct_min": -0.13036011274509818,
+  "exact_vs_a1_weekly_pct_max": 0.4215180877824354,
+  "open_all_weekly_entrants_identical": true,
+  "open_all_weekly_evictions_identical": true,
+  "open_all_weekly_membership_identical": true,
+  "open_all_mandatory_budget_charges_zero": true,
+  "open_all_optional_moves_within_B": true,
+  "open_absolute_admission_slots_identical_weeks": 39,
+  "open_total_test_weeks": 42,
+  "open_placement_interpretation": "identical admission/eviction/member rule and zero mandatory budget charge; absolute entrant slots may differ under policy-specific layouts"
+}

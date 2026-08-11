@@ -1,0 +1,11 @@
+# Pinned to the versions used for the recorded reruns
+# (see provenance/environment_versions.txt) — Python 3.12.13
+numpy==2.3.5
+pandas==2.2.3
+scipy==1.17.0
+pyarrow==25.0.0
+networkx==3.6.1
+simpy==4.1.2
+PuLP==3.3.2
+python-calamine==0.8.2
+openpyxl==3.1.5

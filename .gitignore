@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Run scratch space (populated by the fast-rerun copy step)
+source/exp/out/
+
+# Raw public inputs (not redistributed; see provenance/input_output_sha256.txt)
+source/data/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/

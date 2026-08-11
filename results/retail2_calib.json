@@ -1,0 +1,48 @@
+{
+  "chosen_forecaster": "es_0.7",
+  "mase_scores": {
+    "naive": 0.8005736041568017,
+    "es_0.2": 1.0114635449044653,
+    "es_0.3": 0.8936193579637249,
+    "es_0.5": 0.800193803542042,
+    "es_0.7": 0.7884726448301674
+  },
+  "n_train_weeks": 62,
+  "n_test_weeks": 42,
+  "train_actives": 4253,
+  "target_slots": 4431,
+  "layout_slots": 4480,
+  "slots_per_side_block": 56,
+  "B_star": 100,
+  "B_rule": "last step marginal gain >= 10% of max step gain",
+  "lambda": 0.0,
+  "alpha_congestion": 0.1,
+  "K": 1600,
+  "bcurve_train": [
+    {
+      "B": 0,
+      "travel": 213.604,
+      "moves": 0.0
+    },
+    {
+      "B": 25,
+      "travel": 209.84800000000004,
+      "moves": 24.0
+    },
+    {
+      "B": 50,
+      "travel": 210.02700000000002,
+      "moves": 50.0
+    },
+    {
+      "B": 100,
+      "travel": 208.895,
+      "moves": 100.0
+    },
+    {
+      "B": 200,
+      "travel": 209.023,
+      "moves": 199.83333333333334
+    }
+  ]
+}

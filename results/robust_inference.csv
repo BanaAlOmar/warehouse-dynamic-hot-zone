@@ -1,0 +1,26 @@
+dataset,comparison,method,block_length,n_weeks,estimate_pct,aggregate_ratio_pct,ci_low_pct,ci_high_pct,prob_effect_below_zero
+primary,A1_pool vs B1_ABC_static,circular moving-block bootstrap,1,9,-2.6754524263965234,-2.676176763813942,-3.261734217674149,-2.0426860588678046,1.0
+primary,A1_pool vs B1_ABC_static,circular moving-block bootstrap,2,9,-2.6754524263965234,-2.676176763813942,-3.3009580195963424,-1.8932856329325434,1.0
+primary,A1_pool vs B1_ABC_static,circular moving-block bootstrap,4,9,-2.6754524263965234,-2.676176763813942,-3.3076924033038626,-1.9725155977003146,1.0
+primary,A1_pool vs B1_ABC_static,circular moving-block bootstrap,6,9,-2.6754524263965234,-2.676176763813942,-3.2538329199089997,-2.0616247394550284,1.0
+primary,A1_pool vs B1_ABC_static,Newey-West HAC mean weekly percent,2,9,-2.6754524263965234,-2.676176763813942,-3.4580045980542704,-1.8929002547387763,
+primary,Exact_assignment_same_state vs B1_ABC_static,circular moving-block bootstrap,1,9,-2.5198104932607324,-2.5261110550842125,-3.139648371297968,-1.858331553688342,1.0
+primary,Exact_assignment_same_state vs B1_ABC_static,circular moving-block bootstrap,2,9,-2.5198104932607324,-2.5261110550842125,-3.1946476090608713,-1.698031882796059,1.0
+primary,Exact_assignment_same_state vs B1_ABC_static,circular moving-block bootstrap,4,9,-2.5198104932607324,-2.5261110550842125,-3.1946476090608713,-1.7517218128353056,1.0
+primary,Exact_assignment_same_state vs B1_ABC_static,circular moving-block bootstrap,6,9,-2.5198104932607324,-2.5261110550842125,-3.1110429304109286,-1.883543812009111,1.0
+primary,Exact_assignment_same_state vs B1_ABC_static,Newey-West HAC mean weekly percent,2,9,-2.5198104932607324,-2.5261110550842125,-3.338358098162356,-1.7012628883591088,
+retail2_closed,A1_pool vs B1_ABC_static,circular moving-block bootstrap,1,42,-8.968501224136551,-9.200775658827576,-9.603779410194822,-8.30330106222065,1.0
+retail2_closed,A1_pool vs B1_ABC_static,circular moving-block bootstrap,2,42,-8.968501224136551,-9.200775658827576,-9.75608824110092,-8.148611992211391,1.0
+retail2_closed,A1_pool vs B1_ABC_static,circular moving-block bootstrap,4,42,-8.968501224136551,-9.200775658827576,-9.929017217347008,-7.934777752611944,1.0
+retail2_closed,A1_pool vs B1_ABC_static,circular moving-block bootstrap,6,42,-8.968501224136551,-9.200775658827576,-10.034912624313193,-7.796277519914925,1.0
+retail2_closed,A1_pool vs B1_ABC_static,Newey-West HAC mean weekly percent,3,42,-8.968501224136551,-9.200775658827576,-9.980149648254693,-7.956852800018409,
+retail2_open,A1_open vs B1_open,circular moving-block bootstrap,1,42,-15.834021521812943,-16.549442925880385,-16.89835801569177,-14.773001197593729,1.0
+retail2_open,A1_open vs B1_open,circular moving-block bootstrap,2,42,-15.834021521812943,-16.549442925880385,-17.200072049990332,-14.452455637111328,1.0
+retail2_open,A1_open vs B1_open,circular moving-block bootstrap,4,42,-15.834021521812943,-16.549442925880385,-17.465255054675772,-14.171235694855174,1.0
+retail2_open,A1_open vs B1_open,circular moving-block bootstrap,6,42,-15.834021521812943,-16.549442925880385,-17.539447436856513,-14.079731168418563,1.0
+retail2_open,A1_open vs B1_open,Newey-West HAC mean weekly percent,3,42,-15.834021521812943,-16.549442925880385,-17.607408372369537,-14.060634671256349,
+retail2_open,A1_open vs reABC_open,circular moving-block bootstrap,1,42,-8.545446186343021,-8.93679659748522,-9.138013051884757,-7.969076441493611,1.0
+retail2_open,A1_open vs reABC_open,circular moving-block bootstrap,2,42,-8.545446186343021,-8.93679659748522,-9.290680717002575,-7.825065572776205,1.0
+retail2_open,A1_open vs reABC_open,circular moving-block bootstrap,4,42,-8.545446186343021,-8.93679659748522,-9.414874918736498,-7.709119862841707,1.0
+retail2_open,A1_open vs reABC_open,circular moving-block bootstrap,6,42,-8.545446186343021,-8.93679659748522,-9.483867834499968,-7.654890437473225,1.0
+retail2_open,A1_open vs reABC_open,Newey-West HAC mean weekly percent,3,42,-8.545446186343021,-8.93679659748522,-9.461542840099309,-7.629349532586733,

@@ -1,0 +1,4 @@
+policy,mean_km,pct_vs_B1,weeks_better_than_B1,worst_week_pct,n_test_weeks,full_universe_skus,test_only_skus,test_demand_included_pct,mandatory_admissions_total,mandatory_evictions_total
+A1_open,315.50342857142857,-16.549442925880385,42,-7.728203418884815,42,4881,628,100.0,631,404
+B1_open,378.0722857142857,0.0,0,0.0,42,4881,628,100.0,631,404
+reABC_open,346.4664285714286,-8.35973921842611,42,-2.976048759582872,42,4881,628,100.0,631,404

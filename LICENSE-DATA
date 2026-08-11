@@ -1,0 +1,25 @@
+The derived data files, result tables and report text in this repository are
+licensed under the Creative Commons Attribution 4.0 International License
+(CC BY 4.0).
+
+https://creativecommons.org/licenses/by/4.0/
+
+This covers `processed_inputs/`, `results/` and
+`Warehouse_Manuscript_Rerun_Report.md`. Code under `source/` is licensed
+separately under the MIT License (`LICENSE`).
+
+Third-party source datasets
+---------------------------
+
+Neither raw source dataset is redistributed here. Only compact derived arrays
+and tables are included, sufficient to repeat policy evaluation.
+
+1. Warehouse Science order-picking data (`picks.csv`, `SKUs.csv`), obtained
+   from the public Warehouse Science distribution. Derived weekly demand,
+   line, order and SKU-master tables in `processed_inputs/` are computed from
+   it and remain subject to the original provider's terms.
+
+2. Online Retail II, Chen, D. (2012), UCI Machine Learning Repository,
+   https://doi.org/10.24432/C5CG6D. Released under CC BY 4.0. The filtered
+   table `processed_inputs/retail2_filtered.parquet` is an adaptation of this
+   dataset and is redistributed under the same licence with attribution.

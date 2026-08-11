@@ -1,0 +1,53 @@
+{
+  "filter_log": {
+    "raw_rows": 1067371,
+    "c1_after_cancel": 1047877,
+    "c1_dropped": 19494,
+    "c2_after_posqty": 1044420,
+    "c2_dropped": 3457,
+    "c3_after_nonproduct": 1037913,
+    "c3_dropped": 6507,
+    "c3_nonproduct_codes_hit": [
+      "ADJUST",
+      "ADJUST2",
+      "AMAZONFEE",
+      "B",
+      "BANK CHARGES",
+      "C2",
+      "D",
+      "DCGS0069",
+      "DCGS0070",
+      "DOT",
+      "M",
+      "PADS",
+      "POST",
+      "S"
+    ],
+    "n_iso_weeks": 104,
+    "n_train_weeks": 62,
+    "n_test_weeks": 42,
+    "train_week_first": 200949,
+    "train_week_last": 201107,
+    "test_week_first": 201108,
+    "test_week_last": 201149,
+    "train_pct": 59.6,
+    "c4_qty_cutoff_999_train": 526.0360000000801,
+    "c4_after_cutoff": 1036970,
+    "c4_dropped": 943,
+    "final_rows": 1036970
+  },
+  "gateB": {
+    "n_sku_train": 4253,
+    "requirement_nsku": ">=1000",
+    "nsku_pass": true,
+    "top_decile_line_share": 0.4772,
+    "requirement_concentration": "<0.80",
+    "concentration_pass": true,
+    "GATE_B_PASS": true
+  },
+  "drift_gate_train_only": {
+    "mean_kendall_tau": 0.4739521233338606,
+    "mean_topdecile_jaccard": 0.48403740364439435,
+    "n_week_pairs": 61
+  }
+}

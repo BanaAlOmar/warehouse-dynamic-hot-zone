@@ -1,0 +1,4 @@
+policy,mean_km,pct_vs_B1,weeks_better_than_B1
+A1_pool,2544.5161111111106,-2.676176763813942,9
+B1_ABC_static,2614.4843333333333,0.0,0
+Exact_assignment_same_state,2548.439555555555,-2.5261110550842125,9

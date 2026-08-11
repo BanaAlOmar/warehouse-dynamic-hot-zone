@@ -1,0 +1,10 @@
+{
+ "lambda": 0.0,
+ "alpha": 0.1,
+ "B": 100,
+ "mu_m_per_move": 1180.858586,
+ "move_cost_m": 211.0,
+ "B_rule": "pre-registered: largest B whose marginal gain per move >= median move cost (2x median slot-depot travel + 60s handling)",
+ "knee_rule": "min normalized L2 distance to ideal (travel, blocking); lambda=0 dominated both objectives (tie on alpha broken to smallest)",
+ "source": "frozen primary calibration reported in dataset3_calibration_chosen.csv"
+}
