@@ -3,7 +3,7 @@
 Replication artifact for forecast-driven warehouse re-slotting under a binding
 relocation budget. It contains the portable experiment source, the compact
 processed inputs, and the final result tables for the runs described in
-[`Warehouse_Manuscript_Rerun_Report.md`](Warehouse_Manuscript_Rerun_Report.md).
+[`Warehouse_Manuscript.md`](Warehouse_Manuscript.md).
 
 ## Directories
 
