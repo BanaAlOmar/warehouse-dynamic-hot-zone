@@ -1,5 +1,3 @@
-# Warehouse re-slotting manuscript: independent rerun report
-
 **Run date:** 30 July 2026  
 **Status:** Primary reproduction, exact local benchmark, closed- and open-assortment confirmation, routing/batching, staffing, layout sensitivity, and dependence-robust inference completed successfully.
 
