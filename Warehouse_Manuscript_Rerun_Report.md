@@ -1,7 +1,6 @@
 # Warehouse re-slotting manuscript: independent rerun report
 
 **Run date:** 30 July 2026  
-**Target journal assessed:** *Computers & Industrial Engineering*  
 **Status:** Primary reproduction, exact local benchmark, closed- and open-assortment confirmation, routing/batching, staffing, layout sensitivity, and dependence-robust inference completed successfully.
 
 ## Executive result
@@ -145,12 +144,4 @@ python exp/run_sens.py
 python exp/robust_inference.py
 ```
 
-The bundle contains the executed source and output tables. Raw public datasets are excluded to keep the bundle compact.
 
-## 8. Written verification answers
-
-1. **Meaning of zero gap:** solver relative MIP bound gap \(=0.0\) in 9/9 weeks. It is not a zero gap to A1. Exact improves the summed surrogate gain over A1 by 2.31%.
-2. **Exact scope and replay:** all weekly decision SKUs, current-slot permutation, sparse top-30 reciprocal arcs plus every A1 arc; not the full `T` pool and not the old head-only model. A1 and exact use the same weekly starting state, forecast, budget, and replay machinery.
-3. **Open-assortment symmetry:** weekly entrants, evictions, membership, admission rule, and zero mandatory budget charge are identical. Absolute entrant-slot mappings are identical in 39/42 weeks and differ in weeks 94, 95, and 101 after policy-specific layouts diverge; this is explicitly logged.
-4. **Routed-distance sign:** mixed weekly signs—exact is better in 2/9 and worse in 7/9; aggregate exact-minus-A1 is +0.15%.
-5. **Registration status:** every added run is dated and labeled post-registration. The dated deviation log, source/result diffs, and refreshed checksums are maintained separately and are available on request.
